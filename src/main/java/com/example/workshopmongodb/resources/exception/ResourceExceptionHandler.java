@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
 import com.example.workshopmongodb.services.exception.ObjectNotFoundException;
-import com.sun.net.httpserver.HttpServer;
 
 @ControllerAdvice
 public class ResourceExceptionHandler {
